@@ -9,12 +9,13 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Lobster', cursive;
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 720px;
 }
 
 #hero {
