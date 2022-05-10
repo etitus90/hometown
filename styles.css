@@ -1,0 +1,82 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("images/williamsport.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.title-h1 {
+    margin: 100px 0 10px 0;
+    background: #01161e;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #eff6e0;
+}
+
+.title-h2 {
+    margin: 0;
+    background: #124559;
+    padding: 5px 30px;
+    width: 400px;
+    border-radius: 10px;
+    color: #eff6e0;
+}
+
+.main-content {
+    background-color: #aec3b0;
+    color: #124559;
+    display: flex;
+    padding: 50px 45px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activity-div {
+    margin: 0 20px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    background-color: #01161e;
+    color: #598392;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
